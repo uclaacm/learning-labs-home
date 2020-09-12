@@ -5,3 +5,6 @@
  */
 
 // You can delete this file if you're not using it
+
+require("typeface-poppins");
+require("typeface-open-sans");

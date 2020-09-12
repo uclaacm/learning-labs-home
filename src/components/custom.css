@@ -1,0 +1,44 @@
+.font-title {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.color-lightblack {
+  color: hsla(0, 0%, 0%, 0.8);
+}
+
+body {
+  padding-top: 70px;
+  min-height: calc(100vh - 70px);
+}
+
+
+@media (min-width: 1080px) {
+  .grid-2r {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+.header {
+  position: fixed;
+	z-index: 10;
+	top: 0;
+  left: 0;
+
+  width: 100%;
+
+  border-bottom: 2px solid rebeccapurple;
+  background: white;
+}
+
+.footer {
+  border-top: 2px solid rebeccapurple;
+  margin-bottom: 1.45rem;
+}
+
+.container-tight {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 1.45rem 1.0875rem;
+}
