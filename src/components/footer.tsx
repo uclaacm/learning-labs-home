@@ -6,9 +6,9 @@ const Footer = (props: {siteTitle: string}) => (
     style={{flexShrink: 0}}
   >
     <div className="container-tight">
-      <h2 style={{textTransform: `lowercase`}}>
+      <h3 style={{textTransform: `lowercase`}}>
         {props.siteTitle}
-      </h2>
+      </h3>
       <p>
         an initiative based out of <a href="https://uclaacm.com" target="_blank" rel="noopener noreferrer">acm @ ucla</a>.
         <br />

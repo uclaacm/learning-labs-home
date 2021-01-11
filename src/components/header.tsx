@@ -7,7 +7,7 @@ const Header = (props: {siteTitle: string}) => (
       paddingTop: `1rem`,
       paddingBottom: `1rem`,
     }}>
-      <h2 style={{ margin: 0 }}>
+      <h3 style={{ margin: 0 }}>
         <Link
           to="/"
           className="color-lightblack"
@@ -18,7 +18,7 @@ const Header = (props: {siteTitle: string}) => (
         >
           {props.siteTitle}
         </Link>
-      </h2>
+      </h3>
     </div>
   </header>
 )
